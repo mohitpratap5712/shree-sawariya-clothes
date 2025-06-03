@@ -245,7 +245,7 @@ a{
 }
 .sec-container2 a:hover {
     color: #f0eeeb;
-    background-color: #0f0e0e;
+    background-color: #615f5f;
     transform: scale(1.05);
     transition: transform 0.3s ease, background-color 0.3s ease;
     border-radius: 10px;
