@@ -1,0 +1,105 @@
+/* Product container */
+.prntcontainer {
+    display: flex;
+    justify-content: center;
+    margin: 60px 0;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    width: 90%;
+}
+
+/* Product boxes */
+.boxes {
+    flex: 1 1 200px;
+    max-width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    font-family: PlayballRegular;
+}
+
+.boxes img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.txt1 {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.rate1 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.buynow button {
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.buynow button:hover {
+    background-color: grey;
+    color: black;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .boxes {
+        max-width: 76%;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .footer-copy {
+        text-align: left;
+    }
+    .functionimg{
+        width: 100%;
+        height: auto;
+    }
+    .sec-container {
+    width: 100%;
+    gap: 15px;
+    padding: 0;
+    }
+    .sec-container2 {
+    width: 100%;
+    gap: 10px;
+    padding: 0;
+    flex-direction: column;
+    align-items: center;
+    }
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+.boxes:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}

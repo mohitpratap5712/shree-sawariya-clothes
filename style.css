@@ -1,0 +1,254 @@
+/* Reset default margins and paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* Navigation bar */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2%;
+    background-color: white;
+    color: black;
+    font-size: 20px;
+}
+.about {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+}
+
+nav .img img {
+    height: 90px;
+    width: 110px;
+}
+
+nav .brandname {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+nav .about a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Banner image */
+.functionimg img {
+    width: 100%;
+    height: auto;
+}
+
+/* All sets text */
+.allsettxt {
+    text-align: center;
+    font-size: 27px;
+    font-weight: bold;
+    margin: 30px 0;
+    font-family: cursive;
+}
+
+/* View more button */
+.prntveiws {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.viewmore {
+    border: 2px solid grey;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+/* Product container */
+.prntcontainer {
+    display: flex;
+    justify-content: center;
+    margin: 60px 0;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    width: 90%;
+}
+
+/* Product boxes */
+.boxes {
+    flex: 1 1 200px;
+    max-width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    font-family: PlayballRegular;
+}
+
+.boxes img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.txt1 {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.rate1 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.buynow button {
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* WhatsApp Modal */
+
+/* Footer styling */
+footer {
+    background: #222;
+    color: #fff;
+    padding: 30px 0 10px 0;
+    font-family: Arial, sans-serif;
+}
+
+.footer-container {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 0 20px;
+}
+
+.footer-brand {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.footer-links {
+    display: flex;
+    gap: 20px;
+}
+
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.footer-links a:hover {
+    color: #ffb347;
+}
+
+.footer-copy {
+    font-size: 0.95em;
+    opacity: 0.8;
+    flex-basis: 100%;
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .boxes {
+        max-width: 76%;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .footer-copy {
+        text-align: left;
+    }
+    .functionimg{
+        width: 100%;
+        height: auto;
+    }
+    .sec-container {
+    width: 100%;
+    gap: 15px;
+    padding: 0;
+    }
+    .sec-container2 {
+    width: 100%;
+    gap: 10px;
+    padding: 0;
+    flex-direction: column;
+    align-items: center;
+    }
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.boxes:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+.sec-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin: 35px;
+}
+
+.sec-container2 a{
+    color : black;
+
+
+    text-decoration: none;
+    font-weight: 600;
+}
+.sec-container2 a:hover {
+    color: #f0eeeb;
+    background-color: #0f0e0e;
+    transform: scale(1.05);
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    border-radius: 10px;
+    padding: 10px;
+
+}
