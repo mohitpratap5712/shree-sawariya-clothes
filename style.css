@@ -26,6 +26,7 @@ nav {
 }
 .about {
     display: flex;
+    flex-direction: row;
     align-items: center;
     gap: 10px;
     padding: 10px;
@@ -198,6 +199,9 @@ footer {
         height: 80px;
         width: 85px;
     }
+    .about {
+        font-size: 19px;
+    }
 
 
     .boxes {
@@ -213,6 +217,7 @@ footer {
         text-align: left;
     }
     .functionimg{
+        
         width: 100%;
         height: auto;
     }
@@ -265,4 +270,12 @@ a{
     border-radius: 10px;
     padding: 10px;
 
+}
+.tap-img-1 a{
+    color:black;
+}
+
+a.problm {
+    color: white;
+    text-decoration: none;
 }
