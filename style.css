@@ -53,18 +53,20 @@ nav .about a {
     height: auto;
 }
 .most-sell{
-    width: 100%;
+    width: 99%;
     height: 7vh;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: larger;
+    font-weight:600;
+    text-decoration:#ffb347;
 }
 .circle-container{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100%;
+    width: 96%;
     height: 16vh;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -87,9 +89,10 @@ nav .about a {
     width: 92%;
     
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-columns: 100px 100px 100px ;
     margin: 20px 0px;
-    gap: 20px;
+    gap: 40px;
+    justify-content: center;
     
 }
 
@@ -107,7 +110,7 @@ nav .about a {
     font-size: 27px;
     font-weight: bold;
     margin: 30px 0;
-    font-family: cursive;
+    
 }
 
 /* View more button */
