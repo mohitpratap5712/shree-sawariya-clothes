@@ -64,7 +64,7 @@ nav .about a {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100%;
+    width: 100vw;
     height: 16vh;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -88,13 +88,13 @@ nav .about a {
     
     display: grid;
     grid-template-columns: 1fr 1fr 1fr ;
-    margin: 20px 0px;
+    margin: 0px 20px;
     gap: 20px;
     
 }
 
 .circle-1{
-    margin-right: 20px;
+    
     
 }
 .circle-1 img{
