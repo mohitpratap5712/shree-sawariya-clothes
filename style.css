@@ -89,6 +89,7 @@ nav .about a {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr ;
     margin: 0px 20px;
+    gap:10px;
 
     
 }
@@ -300,7 +301,7 @@ a{
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    margin: 35px;
+    margin: 20px;
 }
 
 .sec-container2 a{
