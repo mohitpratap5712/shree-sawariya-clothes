@@ -53,7 +53,7 @@ nav .about a {
     height: auto;
 }
 .most-sell{
-    width: 100%;
+    width: 98vw;
     height: 7vh;
     display: flex;
     justify-content: center;
@@ -89,7 +89,7 @@ nav .about a {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr ;
     margin: 0px 20px;
-    gap: 20px;
+
     
 }
 
