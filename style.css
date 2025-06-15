@@ -5,12 +5,19 @@
     box-sizing: border-box;
 }
 
+/* Prevent horizontal scroll and ensure full width */
+html, body {
+    width: 100%;
+    overflow-x: hidden;
+}
+
 /* Body styling */
 body {
     font-family:'reddit sans' , sans-serif,'Segoe UI', Arial;
     background-color: #f0f0f0;
     color: #333;
 }
+
 
 
 /* Navigation bar */
@@ -68,7 +75,7 @@ nav .about a {
     justify-content: center;
     width: 96%;
     height: 16vh;
-    margin-top: 20px;
+    margin-top: 32px;
     margin-bottom: 20px;
 
 }
@@ -97,7 +104,7 @@ nav .about a {
 }
 
 .circle-1{
-    margin-right: 20px;
+    margin-left: 20px;
     
 }
 .circle-1 img{
@@ -106,6 +113,7 @@ nav .about a {
 }
 /* All sets text */
 .allsettxt {
+    
     text-align: center;
     font-size: 27px;
     font-weight: bold;
@@ -287,6 +295,9 @@ footer {
     }
     nav .brandname {
         font-size: 24px;
+    }
+    .allsettxt{
+        margin-top: 60px;
     }
 }
 a{
