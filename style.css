@@ -466,9 +466,7 @@ a.problm {
  color: black;
 
 }
-.lists ul li {
-    /* color: black; */
-}
+
 .close{
     position: absolute;
     z-index: 2;
@@ -482,6 +480,6 @@ a.problm {
 @media (max-width:768px) {
     .menu-bar{
         width: 66vw;
-        height: 890px;
+        height: 60vh;
     }
 }
