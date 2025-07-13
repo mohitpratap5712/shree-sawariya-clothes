@@ -31,9 +31,9 @@ nav {
     font-size: 20px;
 
 }
-.about {
+.menu-bar-container {
     display: flex;
-    flex-direction: row;
+    
     align-items: center;
     gap: 10px;
     padding: 10px;
@@ -46,7 +46,7 @@ nav .img img {
 
 nav .brandname {
     font-weight: bold;
-    font-size: 30px;
+    font-size: 26px;
 }
 
 nav .about a {
@@ -294,7 +294,8 @@ footer {
     font-size: 13px;
     }
     nav .brandname {
-        font-size: 24px;
+        font-size: 20px;
+        text-align: center;
     }
     .allsettxt{
         margin-top: 60px;
@@ -338,7 +339,7 @@ footer {
         flex-direction: column;
         align-items: center;
         margin-left: 0;
-        background: linear-gradient(135deg, #fffbe6 60%, #ffe0b2 100%);
+        
         border-radius: 20px;
         padding: 18px 8px 10px 8px;
         box-shadow: 0 2px 12px rgba(255,179,71,0.08);
@@ -421,6 +422,8 @@ a.problm {
     justify-content: center;
         align-items: center;
 }
+
+
 @media (max-width:768px) {
       .video-1{
         flex-direction: column;
@@ -433,4 +436,52 @@ a.problm {
         align-items: center;
       }
     
+}
+.menu-bar{
+    position: absolute;
+    width: 20vw;
+    height: 800px;
+    right: -100%;
+    background-color: rgb(7, 7, 7);
+    z-index: 1;
+    top: 36px;
+    transition: all 0.3s ease-in-out;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+}
+.active{
+    right: 0%;
+}
+.lists{
+    display: flex;
+    gap:15px;
+    margin-left: 55px;
+    margin-top: 50px;
+}
+.lists ul {
+ gap: 40px;
+ display: flex;
+ flex-direction: column;
+ list-style: none;
+ color: black;
+
+}
+.lists ul li {
+    /* color: black; */
+}
+.close{
+    position: absolute;
+    z-index: 2;
+    top: 3px;
+    left: 12px;
+    font-size: 33px;
+    width: 50px;
+    display: flex;
+    color: white;
+}
+@media (max-width:768px) {
+    .menu-bar{
+        width: 66vw;
+        height: 890px;
+    }
 }
