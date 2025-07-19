@@ -438,10 +438,10 @@ a.problm {
     
 }
 .menu-bar{
-    position: absolute;
+    position: fixed;
     width: 20vw;
     height: 800px;
-    right: -100%;
+    right: -100vw;
     background-color: rgb(7, 7, 7);
     z-index: 1;
     top: 36px;
@@ -481,5 +481,6 @@ a.problm {
     .menu-bar{
         width: 66vw;
         height: 90vh;
+        
     }
 }
