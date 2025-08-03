@@ -188,6 +188,11 @@ nav .about a {
     border-radius: 5px;
     cursor: pointer;
 }
+.green{
+    color: green;
+    font-size: large;
+    margin-top: 10px;
+}
 
 /* WhatsApp Modal */
 
@@ -253,6 +258,8 @@ footer {
     .container {
         flex-direction: column;
         align-items: center;
+        display: grid;
+        grid-template-columns: 198px 198px;
     }
     .img img {
         height: 80px;
@@ -264,7 +271,7 @@ footer {
 
 
     .boxes {
-        max-width: 76%;
+        max-width: 100%;
     }
 
     .footer-container {
