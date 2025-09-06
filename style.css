@@ -46,7 +46,30 @@ nav .img img {
 
 nav .brandname {
     font-weight: bold;
-    font-size: 26px;
+    font-size: 36px;
+    animation: clearthetext 1.6s ease-in-out ;
+}
+    
+/* }
+@keyframes flowtingtext{
+    0%{
+        left: -200px;
+    }
+    100%{
+        left: 700px;
+        
+    }
+} */
+
+@keyframes clearthetext{
+    0%{
+        filter: blur(10px);
+        opacity: 0;
+    }
+    100%{
+        filter: blur(0px);
+        opacity: 1;
+    }
 }
 
 nav .about a {
