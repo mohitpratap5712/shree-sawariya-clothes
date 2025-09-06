@@ -55,9 +55,34 @@ nav .about a {
 }
 
 /* Banner image */
+.functionimg{
+    display: flex;
+    width: 100%;
+    scroll-snap-type: x mandatory;
+    overflow-x: auto;
+    scrollbar-width: none;
+    scrollbar-color: transparent;
+}
+/* }
+.functionimg{
+    display: none;
+} */
+/* }
+.childslide::-webkit-scrollbar{
+    width: 0px;
+    background:transparent;
+    display: none;
+} */
+.childslide{
+    flex: 0 0 100%;
+    scroll-snap-align: start;
+    
+}
+
 .functionimg img {
     width: 100%;
     height: auto;
+    display: block;
 }
 .most-sell{
     width: 99%;
@@ -283,7 +308,7 @@ footer {
         text-align: left;
     }
     .functionimg{
-        
+        display: flex;
         width: 100%;
         height: auto;
     }
